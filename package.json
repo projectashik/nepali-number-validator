@@ -1,6 +1,6 @@
 {
   "name": "nepali-number-validator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Validate and get operator details of the provided nepali number",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -20,8 +20,8 @@
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
-    "publish": "npm publish --access public",
-    "ci:publish": "pnpm run build && pnpm publish --access public"
+    "publish": "npm publish",
+    "ci:publish": "pnpm run build && pnpm publish "
   },
 
   "keywords": [
