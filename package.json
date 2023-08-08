@@ -1,26 +1,47 @@
 {
   "name": "nepali-number-validator",
   "version": "0.0.1",
-  "description": "",
+  "description": "Validate and get operator details of the provided nepali number",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "module": "dist/index.esm.js",
   "bin": {
     "nnv": "bin.js",
-    "@cb/nepali-number-validator": "bin.js"
+    "nepali-number-validator": "bin.js"
   },
   "files": [
     "dist",
     "README.md"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/projectashik/nepali-number-validator.git"
+  },
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
     "publish": "npm publish --access public"
   },
 
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nepali",
+    "number",
+    "validator",
+    "nepali number",
+    "nepali number validator",
+    "nepali number validation",
+    "nepali number details",
+    "nepali number operator",
+    "nepali number operator details",
+    "nepali number operator validation",
+    "nepali number operator details validation",
+    "nepali number operator details validation"
+  ],
+  "author": {
+    "name": "Ashik Chapagain",
+    "email": "dev.chapagainashik@gmail.com",
+    "url": "https://github.com/projectashik"
+  },
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
