@@ -6,19 +6,19 @@ It can also give you the operator details of the number.
 ## Installation
 
 ```bash
-npm install @cb/nepali-number-validator
-yarn add @cb/nepali-number-validator
-pnpm add @cb/nepali-number-validator
+npm install nepali-number-validator
+yarn add nepali-number-validator
+pnpm add nepali-number-validator
 ```
 
 ## Usage
 
 ```typescript
 // ES Modules
-import { isNepaliPhoneNumber, getPhoneNumberDetails  } from '@cb/nepali-number-validator';
+import { isNepaliPhoneNumber, getPhoneNumberDetails  } from 'nepali-number-validator';
 
 // CommonJS
-const { isNepaliPhoneNumber, getPhoneNumberDetails } = require('@cb/nepali-number-validator');
+const { isNepaliPhoneNumber, getPhoneNumberDetails } = require('nepali-number-validator');
 
 // isNepaliPhoneNumber
 isNepaliPhoneNumber('9809373953'); // true
